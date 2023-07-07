@@ -9,7 +9,7 @@ document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000000);
 const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 25;
+camera.position.z = 2;
 //Resimensionamento da camera ao redimensionar a tela
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -28,8 +28,8 @@ const skyBox = await createSkyBox('bluesky', 200);
 skyBox.position.y = 1;
 scene.add(skyBox);
 const jetPath = 'models/f15c/';
-const mtlFile = 'aviao.mtl';
-const objFile = 'aviao.obj';
+const mtlFile = 'f15c.mtl';
+const objFile = 'f15c.obj';
 const manager = new THREE.LoadingManager();
 manager.onProgress = (item, loaded, total) => {
     console.log(item, loaded, total);
