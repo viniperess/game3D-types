@@ -1,5 +1,7 @@
 # Meu Projeto de Jogo em Three.js
 
+![image](https://github.com/viniperess/game3D-types/assets/107048343/f81aa922-2d9b-49f1-bbf5-835b3d42e395)
+
 Este é o meu projeto de jogo em Three.js, onde você pilota um avião e atira em inimigos.
 
 ## Requisitos
